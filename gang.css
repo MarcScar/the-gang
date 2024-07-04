@@ -288,7 +288,7 @@ footer a {
 }
 
 .popup {
-  /* display: none; */
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -296,6 +296,10 @@ footer a {
   left: 0;
   /* needs to be higher than the nav bar */
   z-index: 2;
+}
+
+ .show {
+  display: block;
 }
 
 .blanket {
@@ -346,6 +350,8 @@ footer a {
   height: 80px;
   top: -40px;
   right: -40px;
+
+  cursor: pointer;
 }
 
 .row:after {
